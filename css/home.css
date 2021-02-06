@@ -144,8 +144,17 @@ h4{
 	grid-template-columns: 64px 1fr 100px;
 	justify-content: center;
 	grid-gap: 10px;
+	/* border-left: 1px solid gray; */
+	/* padding-left: 25px; */
+}
+.content-3::before{
+	content: "";
+	/* display: grid; */
+	/* align-items: start; */
+	margin: 0;
+	padding: 0px 20px 0px 0px;
 	border-left: 1px solid gray;
-	padding-left: 25px;
+	height: 500px;
 }
 .content-3 span{
 	font-size: 12px;
@@ -160,7 +169,7 @@ h4{
 	/* background-color: green; */
 }
 .content-3-sub2{
-	background-color: green;
+	/* background-color: green; */
 	display: grid;
 	grid-template-rows: 64px 64px;
 	grid-row-gap: 10px;
@@ -174,7 +183,7 @@ h4{
 }
 
 .content-3-sub3{
-	background-color: green;
+	/* background-color: green; */
 }
 .content-3-sub4{
 	/* background-color: green; */
