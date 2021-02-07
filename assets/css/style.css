@@ -147,14 +147,14 @@ h4{
 	/* border-left: 1px solid gray; */
 	/* padding-left: 25px; */
 }
-.content-3::before{
+.content-2::before{
 	content: "";
 	/* display: grid; */
 	/* align-items: start; */
-	margin: 0;
-	padding: 0px 20px 0px 0px;
-	border-left: 1px solid gray;
+	border-right: 1px solid gray;
 	height: 500px;
+	margin: 0;
+	padding: 0;
 }
 .content-3 span{
 	font-size: 12px;
