@@ -1,0 +1,144 @@
+.header{
+    background-color: white;
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    box-shadow: 5px 0 5px black;
+}
+.nav{
+    height: 4em;
+    width: 1200px;
+    background-color: white;
+    display:flex;
+    margin:auto;
+    justify-content: space-between;
+}
+.navLeft{
+    margin:0;
+    background-color:  #fff;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.5em;
+}
+.navLeft>div{
+    
+    cursor: pointer;
+}
+.navLeft>div:hover{
+    color:rgba(0, 0, 0,.7);
+}
+.navLeft>div + div{
+    margin-left: 50px;
+}
+.navLeftHome{
+    padding: 10px 20px 3px;
+    font-size: 2em;
+}
+.navLeftTrending,.navLeftAbout{
+    padding: 10px 20px ;
+}
+
+.navRight{
+    margin:0;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+.navRight>div:nth-child(2){
+    padding: 20px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.navMenu{
+    position: relative;
+}
+.navSearch{
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navSearchHeader{
+    order:1;
+    cursor: pointer;
+    margin-left: 5px;
+    user-select: none;
+}
+.navSearchContent{
+    width: 100%;
+    display: none;
+}
+.searchForm{
+    display: flex;
+    flex-grow: 1;
+}
+.navSearchInput{
+    height: 1.5em;
+    flex-grow: 1;
+    padding: 1px 5px;
+    border:solid 2px gray;
+    border-radius: 5px;
+}
+.navSearchInput:focus{
+    outline-style: none;
+    border:solid 2px #363636;
+
+}
+
+.navMenuHeader.ext{
+    color:#64a7ff;
+}
+.navMenuContent{
+    position: absolute;
+    top:55px;
+    right:0px;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    border: solid 1px gray;
+    display: none;
+    min-width: 150px;
+}
+.navMenuOptions{
+    text-align: right;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navMenuOptions > div{
+    margin-top:10px;
+    padding: 10px 10px;
+}
+.navMenuOptions .options{
+    cursor: pointer;
+}
+.navMenuOptions .options:hover{
+    font-weight: 600;
+    
+}
+.line{
+    display: inline-block;
+    width: 80%;
+    border-bottom: solid 1px gray;
+}
+
+/*icon*/
+.icon{
+    display: inline-block;
+    font-style: normal;
+    font-family: icon;
+}
+.icon-search::before{
+    content: '\e986';
+}
+.searchOn .icon-search{
+    color:#64a7ff;
+}
+.icon-menu::before{
+    content:'\e9bd';
+}
+@font-face{
+    font-family: icon;
+    src:  
+        url('../icomoon-v1.0/fonts/icomoon.ttf') format('truetype');
+}

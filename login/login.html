@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>login</title>
+    <link rel='stylesheet' type='text/css'  href='main.css'>
+    <link rel='stylesheet' type='text/css'  href='header.css'>
+    <script src='header.js'></script>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="navLeft">
+                <div class="navLeftHome">
+                    Home
+                </div>
+                <div class="navLeftTrending">
+                    Trending
+                </div>
+                <div class="navLeftAbout">
+                    About us
+                </div>
+            </div>
+            <div class="navRight">
+                <div class="navSearch">
+                    <div class="navSearchHeader">
+                        <i class="icon icon-search"></i>
+                    </div>
+                    <div class="navSearchContent">
+                        <form action="" class='searchForm'>
+                            <input type="text" name ='seach' class="navSearchInput">
+                        </form>
+                    </div>
+                </div>
+                <div class="navMenu">
+                    <div class="navMenuHeader ">
+                        <i class="icon icon-menu"></i>
+                    </div>
+                    <div class="navMenuContent">
+                        <div class="navMenuOptions">
+                            <div class="optionHeader">Hi <b>Linh</b></div>
+                            <span class ='line'></span>
+                            <div class="options">View my profile</div>
+                            <span class ='line'></span>
+                            <div class="options">Log out</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form action="" class="loginForm">
+            <h1>Sign in</h1>
+            <div class="inputLogin">
+                <input type="text" id="loginUsername" name="username"></input>
+                <label for="loginUsername">Username</label>
+            </div>
+            <p class='errorHandle usernameError'>Invalid username format</p>
+            <div class="inputLogin">
+                <input type="text" id="loginPassword" name="password"></input>
+                <label for="loginPassword">Password</label>
+            </div>
+            <p class='errorHandle passwordError'>Please enter password</p>
+            <input type="submit" value="Login" class="loginBtn">
+            <div class='extended'>
+                <a href="#" class='signup'>Sign up</a>
+                <a href="#" class='forgetpassword'>forget password</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
