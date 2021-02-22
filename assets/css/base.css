@@ -3,6 +3,7 @@
     --black-color:#000;
     --white-color: rgba(255, 255, 255, 1);
     --text-color: #333;
+    --btn-color: green;
 }
 *, *:before, *:after{
     box-sizing: inherit;
