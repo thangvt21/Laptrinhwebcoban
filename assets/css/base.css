@@ -1,21 +1,32 @@
 :root{
+    --bg-color: #eef0f1;
     --black-color:#000;
-    --white-color:#fff;
+    --white-color: rgba(255, 255, 255, 1);
     --text-color: #333;
 }
-*{
+*, *:before, *:after{
     box-sizing: inherit;
 }
-
 html{
-    box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+body{
+    padding: 0;
+    margin: 0;
     font-size: 100%;
     font-family: sans-serif;
-    line-height: 2rem;
+    position: relative;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 p{
     font-size: 1.6rem;
 }
+
 .grid{
     width: 1200px;
     max-width: 100%;
