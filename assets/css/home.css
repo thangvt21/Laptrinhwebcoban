@@ -177,6 +177,9 @@ ul{
     border-radius: 6px 6px 0px 0px;
     border-bottom: 3px solid var(--btn-hover-color);
 }
+.btn__head{
+    padding: 10px 8px 10px 8px;
+}
 .img1{
     padding: 0;
 }
