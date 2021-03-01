@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
-	<link rel="stylesheet" href="/assets/css/base.css">
-	<link rel="stylesheet" href="/assets/css/home.css">
+	<link rel="stylesheet" href="../assets/css/base.css">
+	<link rel="stylesheet" href="../assets/css/home.css">
 </head>
 <body>
 	<div class="header">
@@ -14,8 +14,8 @@
 				<div>WEB</div>
 				<div>Search bar</div>
 				<div>
-					<a href="#" class="btn btn__blue">Register</a>
-					<a href="#" class="btn btn__pure">Login</a>
+					<a href="#" class="btn btn__pure btn__head">Log in</a>
+					<a href="#" class="btn btn__blue btn__head">Register</a>				
 				</div>
 		</div>
 	</div>
@@ -28,21 +28,26 @@
 						<div class="content--items__box">
 							<div class="content--items__core">
 								<div class="card">
-									<div class="card__content">
-										7 000 authors have posted
-									</div>
-									<div class="card__content">
-										<div class="card__content--core">
-										<a href="#" class="btn btn__blue">Create account</a>	
-										<a href="#" class="btn btn__pure">Login</a>
+									<div class="card__welcome">
+										<div class="card__content large-text">
+											On my <a href="../home/home.html" class="a__welcome">WEB</a>, 7.000 authors have posted
 										</div>
-									</div>
+										<div class="card__content small-text">
+											Join with us, o day hay lam, nhan nut phia duoi de tao tai khoan, neu co roi thi dang nhap vo.
+										</div>
+										<div class="card__content">
+											<div class="card__content--core">
+											<a href="#" class="btn btn__blue">Create account</a>	
+											<a href="#" class="btn btn__pure">Log in</a>
+											</div>
+										</div>
+									</div>									
 								</div>
 								<div class="sidebar">
-									<div class="sidebar__content">																					
-										<a href="#" class="btn btn__sidebar">Home</a>																						
-										<a href="#" class="btn btn__sidebar">Profile</a>																				
-										<a href="#" class="btn btn__sidebar">Ranking</a>								
+									<div class="sidebar__content">											
+										<a href="#" class="btn btn__sidebar">Home</a>						
+										<a href="#" class="btn btn__sidebar">Profile</a>						
+										<a href="#" class="btn btn__sidebar">Ranking</a>
 									</div>
 								</div>
 								<div>1.3</div>
@@ -54,16 +59,48 @@
 							<div class="content--items__core">
 								<div class="topbar">
 									<div class="topbar__content">
-										<a href="#" class="btn btn__top">POSTS</a>	
+										<a href="#" class="btn btn__top">Posts</a>	
 										<div class="sidebar__content--top">
-											<a href="/home/home.html" class="btn btn__topbar--active">Daily</a>
-											<a href="#" class="btn btn__topbar">Weekly</a>																						
-											<a href="#" class="btn btn__topbar">Month</a>																				
+											<a href="/home/home.html" class="btn btn__topbar--active">Today</a>
+											<a href="#" class="btn btn__topbar">Week</a>					
+											<a href="#" class="btn btn__topbar">Month</a>				
 											<a href="#" class="btn btn__topbar">Year</a>
 										</div>
 									</div>
 								</div>
-								<div class="card">1.2</div>
+								<div class="card card__mid">
+									<a href="../post/post1.html">
+										<img src="../assets/img/cover.jpg" alt="anh 1" class="img1">
+									</a>											
+									<div class="mid__content">
+										<div class="mid__content--top">
+											<div class="mid__content--top-meta">
+												<a href="#">
+													<img src="../assets/img/icon1.png" alt="icon1" class="img2">
+												</a>
+												<div class="meta__detail">
+													<a href="#">Author</a>
+													<div class="meta__detail--date">date</div>
+												</div>
+											</div>
+										</div>
+										<div class="mid__content--body">
+											<div class="body__article">
+												<a href="../post/post1.html">How to make a hero like this ?</a>
+											</div>
+											<div class="body__tag">
+												<a href="#">#position</a>
+												<a href="#">#font-size</a>
+												<a href="#">#margin</a>
+											</div>
+											<div class="body__interact">
+												<div class="reaction">reactions</div>
+												<div class="comment">comments</div>
+												<div class="btn__later">Watch later</div>
+											</div>
+										</div>
+									</div>
+								</div>
 								<div class="card">1.3</div>
 								<div class="card">4</div>
 								<div class="card">5</div>
@@ -75,7 +112,7 @@
 					<div class="content--items item3">
 						<div class="content--items__box">
 							<div class="content--items__core">
-								<div>1.1</div>
+								<div class="card">1.1</div>
 								<div>1.2</div>
 								<div>1.3</div>
 							</div>
