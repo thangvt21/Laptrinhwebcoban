@@ -80,12 +80,12 @@ ul{
     padding: 8px 16px;
 }
 .btn__blue{
-    background-color: var(--btn-color);
+    background-color: var(--btn-hover-color);
     color: var(--white-color);
     margin-bottom: 8px;
 }
 .btn__blue:hover{
-    background-color: var(--btn-hover-color);
+    background-color: var(--btn-color) ;
 }
 .btn__pure{
     color: var(--btn-color);
@@ -131,8 +131,10 @@ ul{
 }
 .btn__top{
     font-weight: 700;
+    font-size: larger;
     color: var(--black-color);
-    padding-left: 0px; 
+    padding-left: 0px;
+    margin-top: 5px; 
 }
 .btn__topbar{
     color: var(--text-color);
@@ -143,7 +145,8 @@ ul{
     margin: 0px 6px;
 }
 .btn__topbar--active{
-    color: var(--btn-hover-color);
+    color: var(--black-color);
+    font-weight: 600;
     background-color: var(--bg-color);
     padding: 10px 8px 10px 8px;
     border-radius: 6px 6px 0px 0px;
@@ -171,14 +174,18 @@ ul{
     border-bottom: 2px solid var(--btn-hover-color); */
 }
 .btn__topbar:active{
-    color: var(--btn-hover-color);
+    color: var(--black-color);
+    font-weight: 600;
+    /* color: var(--btn-hover-color); */
     background-color: var(--btn-sidebar-hover-color);
     padding: 10px 8px 9px 8px;
     border-radius: 6px 6px 0px 0px;
     border-bottom: 3px solid var(--btn-hover-color);
 }
 .btn__head{
-    padding: 10px 8px 10px 8px;
+    padding: 12px 10px 12px 10px;
+    margin-right: 10px;
+    font-weight: 600;
 }
 .img1{
     padding: 0;
