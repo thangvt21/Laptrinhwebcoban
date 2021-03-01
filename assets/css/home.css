@@ -161,3 +161,6 @@ ul{
     border-radius: 6px 6px 0px 0px;
     border-bottom: 3px solid var(--btn-hover-color);
 }
+.img1{
+    padding: 0;
+}
