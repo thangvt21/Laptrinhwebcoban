@@ -13,6 +13,13 @@ ul{
     z-index: 100;
     box-shadow: 0 1px 1px rgb(155, 154, 156);
 }
+.header__content{
+    margin: 8px 28px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .page--content{
     flex: 1 auto;
 }
