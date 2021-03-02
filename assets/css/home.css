@@ -14,7 +14,7 @@ ul{
     position: sticky;
     top: 0;
     margin-bottom: 10px;
-    z-index: 100;
+    z-index: 500;
     box-shadow: 0 1px 1px rgb(155, 154, 156);
 }
 .header__content{
