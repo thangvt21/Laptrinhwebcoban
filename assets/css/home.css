@@ -14,7 +14,7 @@ ul{
     position: sticky;
     top: 0;
     margin-bottom: 10px;
-    z-index: 100;
+    z-index: 500;
     box-shadow: 0 1px 1px rgb(155, 154, 156);
 }
 .header__content{
@@ -67,6 +67,17 @@ ul{
     margin-bottom: 8px;
     border-radius: 6px;
     box-shadow: 0 1px 1px rgb(155, 154, 156);
+}
+.card__col1{
+    background-color: var(--white-color);
+    width: 100%;
+    z-index: 200;
+    padding: 16px 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px rgb(155, 154, 156);
+    border: 3px solid var(--gray-color);
 }
 .card__welcome{
     display: flex;
