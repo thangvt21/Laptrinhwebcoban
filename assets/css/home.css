@@ -221,6 +221,12 @@ ul{
     height: 308px;
     margin-bottom: 8px ;
 }
+.img1:hover{
+    z-index: 400;
+    border: 8px solid white;
+    border-radius: 6px;
+    opacity: 1.1;
+}
 .img2{
     width: 32px;
     height: 32px;
