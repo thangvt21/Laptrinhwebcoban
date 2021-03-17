@@ -5,6 +5,10 @@
 }
 html{
     font-family: sans-serif;
+    box-sizing: inherit;
+}
+p{
+    margin: 0;
 }
 
 body{
@@ -129,7 +133,18 @@ body{
     margin-left: 10px;
     padding-left: 10px;
 }
-
+.userposts .postheader .searchbar{
+    border-radius: 10px;
+}
+.userposts .postheader .searchbar input{
+    border-radius: 10px;
+    border:none;
+    line-height: 1.5em;
+    padding: 1px 10px;
+}
+.userposts .postheader .searchbar input:focus{
+    outline: none;
+}
 .listpost{
     margin: 30px 0px 0;
 }
