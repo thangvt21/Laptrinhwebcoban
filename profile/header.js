@@ -18,7 +18,6 @@ window.addEventListener('load',()=>{
     const navSearchContent = document.getElementsByClassName('navSearchContent')[0];
     const navSearchInput = document.getElementsByClassName('navSearchInput')[0];
     navSearchHeader.addEventListener('click',()=>{
-
         //mo input
         if(!navSearchHeader.classList.contains('searchOn')){
             navSearchHeader.classList.add('searchOn');
@@ -33,15 +32,6 @@ window.addEventListener('load',()=>{
         else{
             // navSearchHeader.classList.remove('searchOn');
             // searchForm.style.width = '0%';
-
-        if(!navSearchHeader.classList.contains('searchOn')){
-            navSearchHeader.classList.add('searchOn');
-            navSearchContent.style.display='flex';
-            navSearchInput.focus();
-        }
-        else{
-            navSearchHeader.classList.remove('searchOn');
-
             searchForm.submit();
         }
     })
@@ -52,14 +42,9 @@ window.addEventListener('load',()=>{
     })
     navSearchInput.addEventListener('blur',()=>{
         if(navSearchInput.value === ''){
-
             navSearchHeader.classList.remove('searchOn');
             searchForm.style.width = '0%';
             navSearchContent.style.display='none';
-
-            navSearchContent.style.display='none';
-            navSearchHeader.classList.remove('searchOn');
-
         }
     })
 })
