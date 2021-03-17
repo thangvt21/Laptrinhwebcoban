@@ -1,12 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
 html{
+    font-family: sans-serif;
 }
 body{
     margin: 0;
     background-color: #64a7ff;
 }
-
-
-
 
 
 .container{
@@ -22,6 +25,7 @@ body{
     grid-row: 2/3;
     min-height: 300px;
     box-shadow: 0 0 10px black;
+    border-radius: 10px;
 }
 .loginForm > h1{
     cursor: default;
@@ -34,7 +38,6 @@ body{
     padding:20px 20px;
     font-weight: bolder;
     color: white;
-    /* background-color: #eb0026; */
     background-color: #64a7ff;
     cursor: pointer;
     border: none;
@@ -62,6 +65,7 @@ body{
     top:35%;
     z-index: 1;
     cursor: text;
+    transition: all 0.3s;
 }
 .inputLogin > input:focus + label,.inputLogin >.filled + label{
     color:initial;
@@ -70,7 +74,7 @@ body{
     font-size: 14px;
 }
 .extended{
-    padding: 10px 20px;
+    padding: 20px 20px 10px;
     display: flex;
     justify-content: space-between;
 }

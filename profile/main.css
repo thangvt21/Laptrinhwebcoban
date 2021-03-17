@@ -1,8 +1,10 @@
 *{
-    box-sizing: inherit;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
-p{
-    margin: 0;
+html{
+    font-family: sans-serif;
 }
 
 body{
@@ -126,18 +128,6 @@ body{
     border-left: solid 1.5px black;
     margin-left: 10px;
     padding-left: 10px;
-}
-.userposts .postheader .searchbar{
-    border-radius: 10px;
-}
-.userposts .postheader .searchbar input{
-    border-radius: 10px;
-    border:none;
-    line-height: 1.5em;
-    padding: 1px 10px;
-}
-.userposts .postheader .searchbar input:focus{
-    outline: none;
 }
 
 .listpost{
